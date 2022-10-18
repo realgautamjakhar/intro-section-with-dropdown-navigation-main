@@ -19,24 +19,24 @@ featureMenu.addEventListener("click",()=>{
     console.log(openlistOne);
     if (openlistOne === false){
         featureMenuList.style.display = "revert";
-        document.querySelector(".features img").setAttribute("src","images/icon-arrow-up.svg")
+        document.querySelector(".menu-features img").setAttribute("src","images/icon-arrow-up.svg")
         openlistOne = true;
     }else{
         featureMenuList.style.display = "none";
         openlistOne = false;
-        document.querySelector(".features img").setAttribute("src","images/icon-arrow-down.svg")
+        document.querySelector(".menu-features img").setAttribute("src","images/icon-arrow-down.svg")
     }
 })
 
 companyMenu.addEventListener("click",()=>{
     if (openlistTwo === false){
         companyMenuList.style.display = "revert";
-        document.querySelector(".features img").setAttribute("src","images/icon-arrow-up.svg")
+        document.querySelector(".menu-company img").setAttribute("src","images/icon-arrow-up.svg")
         openlistTwo = true;
     }else{
         companyMenuList.style.display = "none";
         openlistTwo = false;
-        document.querySelector(".features img").setAttribute("src","images/icon-arrow-down.svg")
+        document.querySelector(".menu-company img").setAttribute("src","images/icon-arrow-down.svg")
     }
 })
 
